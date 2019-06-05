@@ -101,15 +101,40 @@ textarea {
  /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+  /*Main-layout*/
+  .holder {
+    display:flex;
+  }
+  #nav .holder {
+
+  }
+  #nav ul {
+    list-style-type: none;
+  }
+  #nav li {
+    display: inline;
+  }
 
 
+  #splash .holder {
 
+  }
+  .half {
+    flex:1;
+  }
 
+  #section-1 {
+    display: flex;
+  }
+  .vertical-text {
 
+  }
 
+  #section-2 {
 
-
-
+  }
+  
+  /*End of main-layout*/
 
 
 
