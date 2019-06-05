@@ -102,23 +102,13 @@ textarea {
    Author's custom styles
    ========================================================================== */
   /*Main-layout*/
-  .holder {
+  #nav .holder {
     display:flex;
   }
-  #nav .holder {
-
-  }
-  #nav ul {
-    list-style-type: none;
-  }
-  #nav li {
-    display: inline;
-  }
-
-
   #splash .holder {
-
+    display: flex;
   }
+
   .half {
     flex:1;
   }
@@ -126,15 +116,29 @@ textarea {
   #section-1 {
     display: flex;
   }
-  .vertical-text {
-
+  .bottom-holder {
+    display: flex;
   }
 
-  #section-2 {
-
+  .bottom-holder div:nth-child(1) {
+    flex:1;
   }
-  
+  .bottom-holder div:nth-child(2) {
+    flex:2;
+  }
+  .bottom-holder div:nth-child(3) {
+    flex:1;
+  }
   /*End of main-layout*/
+  /*Navigation styling*/
+  #nav ul {
+    list-style-type: none;
+  }
+  #nav li {
+    display: inline;
+  }
+
+  /*End of navigation styling*/
 
 
 

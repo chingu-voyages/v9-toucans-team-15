@@ -10,11 +10,10 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
-
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/main.css">
   <meta name="theme-color" content="#fafafa">
 </head>
 
@@ -43,7 +42,8 @@
           </ul>
       </div>
     </div>
-  </nav> 
+  </nav>
+  <!-- START OF FIRST SECTION CONTAINING THE CONTENT -->
   <section id="splash">
     <div class="holder">
       <div class="half" id="section-1">
@@ -61,15 +61,20 @@
       </div>
       <div class="half" id="section-2">
         <div class="slogan">
-          Don't follow trends. Create them
-        </div>
-        <div class="explain">
-          <p>
-            Trend is something that you set and others follow it. So make sure you are setting the right trend to follow.
+          <p class="big-text">
+            Don't follow trends. Create them
           </p>
-          <p><a href="#">See more</a></p>
+          <div class="explain">
+            <p>
+              Trend is something that you set and others follow it. So make sure you are setting the right trend to follow.
+            </p>
+            <p><a href="#">See more</a></p>
+          </div>
         </div>
-        <div class="holder bottom-pos">
+        <div>
+          <p><span id="back">&lt;</span> <span id="next">&gt;</span></p>
+        </div>
+        <div class="bottom-holder">
           <div>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </div>
@@ -83,6 +88,7 @@
       </div>
     </div>
   </section>
+  <!-- END OF FIRST SECTION CONTAINING THE CONTENT -->
   <!-- End of add your site or application content here -->
   <script src="js/vendor/modernizr-3.7.1.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
