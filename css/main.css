@@ -108,7 +108,19 @@ textarea {
   /*Main-layout*/
   #nav .holder {
     display:flex;
+    justify-content: space-between;
   }
+  
+  #navigation {
+    display: flex;
+    min-width: 650px;
+    justify-content: space-between;
+  }
+  
+  #search-toggle {
+    display: flex;
+  }
+
   #splash .holder {
     display: flex;
   }
@@ -124,6 +136,7 @@ textarea {
   .vertical-text {
     flex:1;
   }
+  
   .full-image {
     flex:5;
   }
@@ -151,13 +164,6 @@ textarea {
   }
 
   /*End of navigation styling*/
-
-  .full-image img {
-    /*width: 450px;*/
-    /*max-width: 100%; */
-    /*max-height: 450px;*/
-  }
-
 
 
 
