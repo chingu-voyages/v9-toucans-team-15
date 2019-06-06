@@ -101,6 +101,10 @@ textarea {
  /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+  img {
+    width:100%;
+  }
+
   /*Main-layout*/
   #nav .holder {
     display:flex;
@@ -110,12 +114,20 @@ textarea {
   }
 
   .half {
-    flex:1;
+    width:50%;
   }
 
   #section-1 {
     display: flex;
   }
+
+  .vertical-text {
+    flex:1;
+  }
+  .full-image {
+    flex:5;
+  }
+
   .bottom-holder {
     display: flex;
   }
@@ -140,7 +152,11 @@ textarea {
 
   /*End of navigation styling*/
 
-
+  .full-image img {
+    /*width: 450px;*/
+    /*max-width: 100%; */
+    /*max-height: 450px;*/
+  }
 
 
 
