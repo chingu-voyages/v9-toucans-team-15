@@ -10,11 +10,10 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
-
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/main.css">
   <meta name="theme-color" content="#fafafa">
 </head>
 
@@ -24,8 +23,77 @@
   <![endif]-->
 
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  
+  <nav id="nav">
+    <div class="holder">
+      <div id="logo">
+        LOGO
+      </div>
+      <div id="navigation">
+        <div id="links">      
+            <ul>
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">Collections</a>
+              </li>
+              <li>
+                <a href="#">New</a>
+              </li>
+            </ul>
+        </div>
+        <div id="search-toggle">
+          SEARCH ICON
+          <div id="day-night">
+            <div id="switch-circle">
+              switch
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- START OF FIRST SECTION CONTAINING THE CONTENT -->
+  <section id="splash">
+    <div class="holder">
+      <div class="half" id="section-1">
+        <div class="vertical-text">
+          Vertical text
+        </div>
+        <div class="full-image">
+          <img src="img/parker-whitson-1350806-unsplash.jpg">
+        </div>
+      </div>
+      <div class="half" id="section-2">
+        <div class="slogan">
+          <p class="big-text">
+            Don't follow trends. Create them
+          </p>
+          <div class="explain">
+            <p>
+              Trend is something that you set and others follow it. So make sure you are setting the right trend to follow.
+            </p>
+            <p><a href="#">See more</a></p>
+          </div>
+        </div>
+        <div>
+          <p><span id="back">&lt;</span> <span id="next">&gt;</span></p>
+        </div>
+        <div class="bottom-holder">
+          <div>
+            <img src="img/ian-dooley-347962-unsplash.jpg">
+          </div>
+          <div>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+          <div>
+            <img src="img/rafael-silva-1462178-unsplash.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END OF FIRST SECTION CONTAINING THE CONTENT -->
   <!-- End of add your site or application content here -->
   <script src="js/vendor/modernizr-3.7.1.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
