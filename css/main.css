@@ -172,6 +172,7 @@ textarea {
     border: solid #000 2px;
     display: flex;
     justify-content: center;
+    background-color: #fff;
   }
   #switch-pin {
     width:10px;
@@ -179,6 +180,7 @@ textarea {
     border-radius: 20px;
     background-color: #000;
   }
+
   /*END OF SWITCH*/
   /*End of navigation styling*/
 
