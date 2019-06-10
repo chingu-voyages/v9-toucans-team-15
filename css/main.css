@@ -183,9 +183,24 @@ textarea {
 
   /*END OF SWITCH*/
   /*End of navigation styling*/
+  #image-changer {
+    display: flex;
+    text-align:center;
+  }
+  #back, #next {
+    width:40px;
+    height:40px;
+    font-size: 26px;
+  }
+  #back {
+    background-color: #171717;
+    color:#cdcdcd;
+  }
 
-
-
+  #next {
+    background-color: #cdcdcd;
+    color:#171717;
+  }
 
  /* ==========================================================================
    Helper classes
