@@ -163,6 +163,23 @@ textarea {
     display: inline;
   }
 
+  /*START OF SWITCH*/
+  #switch {
+    width: 20px;
+    height: 50px;
+    border-radius: 30px;
+    padding:5px 0;
+    border: solid #000 2px;
+    display: flex;
+    justify-content: center;
+  }
+  #switch-pin {
+    width:10px;
+    height:10px;
+    border-radius: 20px;
+    background-color: #000;
+  }
+  /*END OF SWITCH*/
   /*End of navigation styling*/
 
 
