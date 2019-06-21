@@ -101,21 +101,106 @@ textarea {
  /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+  img {
+    width:100%;
+  }
 
+  /*Main-layout*/
+  #nav .holder {
+    display:flex;
+    justify-content: space-between;
+  }
+  
+  #navigation {
+    display: flex;
+    min-width: 650px;
+    justify-content: space-between;
+  }
+  
+  #search-toggle {
+    display: flex;
+  }
 
+  #splash .holder {
+    display: flex;
+  }
 
+  .half {
+    width:50%;
+  }
 
+  #section-1 {
+    display: flex;
+  }
 
+  .vertical-text {
+    flex:1;
+  }
+  
+  .full-image {
+    flex:5;
+  }
 
+  .bottom-holder {
+    display: flex;
+  }
 
+  .bottom-holder div:nth-child(1) {
+    flex:1;
+  }
+  .bottom-holder div:nth-child(2) {
+    flex:2;
+  }
+  .bottom-holder div:nth-child(3) {
+    flex:1;
+  }
+  /*End of main-layout*/
+  /*Navigation styling*/
+  #nav ul {
+    list-style-type: none;
+  }
+  #nav li {
+    display: inline;
+  }
 
+  /*START OF SWITCH*/
+  #switch {
+    width: 20px;
+    height: 50px;
+    border-radius: 30px;
+    padding:5px 0;
+    border: solid #000 2px;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+  }
+  #switch-pin {
+    width:10px;
+    height:10px;
+    border-radius: 20px;
+    background-color: #000;
+  }
 
+  /*END OF SWITCH*/
+  /*End of navigation styling*/
+  #image-changer {
+    display: flex;
+    text-align:center;
+  }
+  #back, #next {
+    width:40px;
+    height:40px;
+    font-size: 26px;
+  }
+  #back {
+    background-color: #171717;
+    color:#cdcdcd;
+  }
 
-
-
-
-
-
+  #next {
+    background-color: #cdcdcd;
+    color:#171717;
+  }
 
  /* ==========================================================================
    Helper classes
