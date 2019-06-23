@@ -102,18 +102,29 @@ textarea {
    Author's custom styles
    ========================================================================== */
   img {
-    width:100%;
+    max-width:100%;
   }
 
   /*Main-layout*/
+  body {
+    height: 100vh;
+  }
+
   #nav .holder {
     display:flex;
     justify-content: space-between;
+  }
+
+  #logo {
+    background-color: #000;
+    color: #fff;
+    width: 45%;
   }
   
   #navigation {
     display: flex;
     min-width: 650px;
+    width: 50%;
     justify-content: space-between;
   }
   
@@ -123,6 +134,7 @@ textarea {
 
   #splash .holder {
     display: flex;
+    background-color: #000;
   }
 
   .half {
@@ -131,14 +143,59 @@ textarea {
 
   #section-1 {
     display: flex;
+    width: 45%;
   }
-
+  
   .vertical-text {
     flex:1;
+    color: #999;
+  }
+
+  .vertical-text p {
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    text-align: center;
   }
   
   .full-image {
     flex:5;
+  }
+
+  .full-image img {
+    height: 94vh;
+    width: 100%;
+  }
+
+  #section-2 {
+    background-color: #eac7ff;
+    width: 55%;
+  }
+
+  .slogan {
+    width: 500px;
+    margin: auto;
+    padding: 50px 50px;
+  }
+
+  .big-text {
+    font-size: 42px;
+    text-align: left;
+    font-weight: 900;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+  }
+
+  .big-text span {
+    color: #fff;
+  }
+
+  .explain {
+    width: 254px;
+    margin: -58px auto 58px auto;
+    padding-left: 44px;
+    font-size: 14px;
   }
 
   .bottom-holder {
@@ -150,6 +207,9 @@ textarea {
   }
   .bottom-holder div:nth-child(2) {
     flex:2;
+    background-color: #000;
+    color: #fff;
+    padding: 20px 40px;
   }
   .bottom-holder div:nth-child(3) {
     flex:1;
@@ -161,6 +221,11 @@ textarea {
   }
   #nav li {
     display: inline;
+    padding: 0 20px;
+  }
+
+  #nav li a {
+    color: #000 !important;
   }
 
   /*End of navigation styling*/
