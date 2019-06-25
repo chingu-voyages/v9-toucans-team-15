@@ -124,7 +124,7 @@ textarea {
   #navigation {
     display: flex;
     min-width: 650px;
-    width: 50%;
+    width: 55%;
     justify-content: space-between;
   }
   
