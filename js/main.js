@@ -6,6 +6,7 @@ const switchPin= document.querySelector('#switch-pin');
 const section2=document.getElementById('section-2');
 const next= document.getElementById('next');
 const collection=document.getElementById('collection');
+const links=document.querySelectorAll('a');
 // const slogan = document.querySelector('.slogan');
 document.querySelector('#switch').addEventListener('click',function(){
     if (this.style.alignItems=="" || this.style.alignItems=="flex-start"){
@@ -32,9 +33,17 @@ function darkTheme() {
     verticalText.style.background="#55575b";
     section2.style.background="#55575b";
     next.style.background="#fff";
-    collection.style.background="#2d2f34"
+    collection.style.background="#2d2f34";
+    navigation.style.color="#fff";
+    // console.log(document.querySelectorAll('#nav li a'));
+    for(x=0;x<links.length; x++){
+        links[x].className = "light-links";
+    }
+    document.querySelector('.explain p').className = "light-links";
+    // document.querySelector('#nav li a').classList.remove("");
+    // navLinks.style.color="#fff";
+    // console.log(navLinks);
     // slogan.style.background="#36393f";
-
 }
 
 function lightTheme() {
@@ -44,5 +53,12 @@ function lightTheme() {
     section2.style.background="#eac7ff";
     next.style.background="#cdcdcd";
     collection.style.background="#111";
+    navigation.style.color="#000";
+    for(x=0;x<links.length; x++){
+        links[x].className = "dark-links";
+    }
+    document.querySelector('.explain p').className = "dark-links";
+    // document.querySelector('#nav li a').className = "";
+    // document.querySelector('#nav li a').classList.remove("");
     // slogan.style.background='#eac7ff';
 }

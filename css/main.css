@@ -225,8 +225,12 @@ textarea {
     padding: 0 20px;
   }
 
-  #nav li a {
+  /*#nav li a */
+  .dark-links{
     color: #000 !important;
+  }
+  .light-links {
+    color: #fff !important;
   }
 
   /*START OF SWITCH*/
