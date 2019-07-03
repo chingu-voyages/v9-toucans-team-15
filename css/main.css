@@ -131,10 +131,11 @@ textarea {
   #search-toggle {
     display: flex;
   }
-
+  #splash {
+    background-color: #000;
+  }
   #splash .holder {
     display: flex;
-    background-color: #000;
   }
 
   .half {
