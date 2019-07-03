@@ -149,6 +149,7 @@ textarea {
   .vertical-text {
     flex:1;
     color: #999;
+    align-self: center;
   }
 
   .vertical-text p {
