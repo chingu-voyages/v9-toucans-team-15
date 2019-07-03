@@ -40,6 +40,17 @@ function darkTheme() {
         links[x].className = "light-links";
     }
     document.querySelector('.explain p').className = "light-links";
+    // transitioning effect
+    logo.style.transition="all 1s";
+    navigation.style.transition="all 1s";
+    verticalText.style.transition="all 1s";
+    section2.style.transition="all 1s";
+    next.style.transition="all 1s";
+    collection.style.transition="all 1s";
+    navigation.style.transition="all 1s";
+    links.style.transition="all 1s";
+    // End of transitioning effect
+
     // document.querySelector('#nav li a').classList.remove("");
     // navLinks.style.color="#fff";
     // console.log(navLinks);
@@ -58,6 +69,7 @@ function lightTheme() {
         links[x].className = "dark-links";
     }
     document.querySelector('.explain p').className = "dark-links";
+
     // document.querySelector('#nav li a').className = "";
     // document.querySelector('#nav li a').classList.remove("");
     // slogan.style.background='#eac7ff';
