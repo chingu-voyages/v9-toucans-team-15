@@ -1,7 +1,7 @@
 // START OF SWITCH BTN LIGHT AND DARK
 const logo =document.getElementById('logo');
 const navigation=document.getElementById('navigation');
-const verticalText=document.querySelector('.vertical-text');
+const splash=document.getElementById('splash');
 const switchPin= document.querySelector('#switch-pin');
 const section2=document.getElementById('section-2');
 const next= document.getElementById('next');
@@ -30,7 +30,7 @@ document.querySelector('#switch').addEventListener('click',function(){
 function darkTheme() {
     logo.style.backgroundColor="#55575b";
     navigation.style.backgroundColor="#2d2f34";
-    verticalText.style.background="#55575b";
+    splash.style.backgroundColor="#55575b";
     section2.style.background="#55575b";
     next.style.background="#fff";
     collection.style.background="#2d2f34";
@@ -43,7 +43,7 @@ function darkTheme() {
     // transitioning effect
     logo.style.transition="all 1s";
     navigation.style.transition="all 1s";
-    verticalText.style.transition="all 1s";
+    splash.style.transition="all 1s";
     section2.style.transition="all 1s";
     next.style.transition="all 1s";
     collection.style.transition="all 1s";
@@ -60,7 +60,7 @@ function darkTheme() {
 function lightTheme() {
     logo.style.backgroundColor="#000";
     navigation.style.backgroundColor="#fff";
-    verticalText.style.background="#000";
+    splash.style.background="#000";
     section2.style.background="#eac7ff";
     next.style.background="#cdcdcd";
     collection.style.background="#111";
