@@ -8,6 +8,8 @@ const next= document.getElementById('next');
 const collection=document.getElementById('collection');
 const links=document.querySelectorAll('a');
 const explainIcon = document.querySelector('.explain i');
+const search = document.querySelector('#search-toggle');
+
 // const slogan = document.querySelector('.slogan');
 document.querySelector('#switch').addEventListener('click',function(){
     if (this.style.alignItems=="" || this.style.alignItems=="flex-start"){
@@ -27,6 +29,10 @@ document.querySelector('#switch').addEventListener('click',function(){
     }
 });
 
+search.addEventListener('click', function(){
+    // this.style.display="none";
+    
+})
 
 function darkTheme() {
     logo.style.backgroundColor="#55575b";
