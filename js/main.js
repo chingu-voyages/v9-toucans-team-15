@@ -7,6 +7,7 @@ const section2=document.getElementById('section-2');
 const next= document.getElementById('next');
 const collection=document.getElementById('collection');
 const links=document.querySelectorAll('a');
+const explainIcon = document.querySelector('.explain i');
 // const slogan = document.querySelector('.slogan');
 document.querySelector('#switch').addEventListener('click',function(){
     if (this.style.alignItems=="" || this.style.alignItems=="flex-start"){
@@ -35,6 +36,8 @@ function darkTheme() {
     next.style.background="#fff";
     collection.style.background="#2d2f34";
     navigation.style.color="#fff";
+    explainIcon.style.backgroundColor="#fff";
+    explainIcon.style.color="#2d2f34";
     // console.log(document.querySelectorAll('#nav li a'));
     for(x=0;x<links.length; x++){
         links[x].className = "light-links";
@@ -65,6 +68,7 @@ function lightTheme() {
     next.style.background="#cdcdcd";
     collection.style.background="#111";
     navigation.style.color="#000";
+    explainIcon.style.backgroundColor="blue";
     for(x=0;x<links.length; x++){
         links[x].className = "dark-links";
     }
