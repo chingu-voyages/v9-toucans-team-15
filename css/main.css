@@ -176,7 +176,7 @@ textarea {
   }
 
   .slogan {
-    width: 500px;
+    width: 400px;
     margin: auto;
     padding: 50px 50px;
   }
@@ -195,9 +195,9 @@ textarea {
   }
 
   .explain {
-    width: 254px;
-    margin: -58px auto 58px auto;
-    padding-left: 44px;
+    width: 260px;
+    margin: -60px auto 0px auto;
+    padding-left: 94px;
     font-size: 14px;
   }
 
