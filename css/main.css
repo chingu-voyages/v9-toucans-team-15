@@ -131,6 +131,9 @@ textarea {
   #search-toggle {
     display: flex;
   }
+  #search-toggle i {
+    padding:4px;
+  }
   #splash {
     background-color: #000;
   }
