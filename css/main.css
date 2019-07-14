@@ -102,20 +102,15 @@ textarea {
    Author's custom styles
    ========================================================================== */
   * {
-    padding: 0;
-    margin: 0;
+    padding: 0 !important;
+    margin: 0 !important;
   }
   
-   img {
+  img {
     max-width:100%;
   }
 
   /*Main-layout*/
-  body {
-    height: 100vh;
-    overflow: auto;
-  }
-
   #nav .holder {
     display:flex;
     justify-content: space-between;
@@ -176,15 +171,13 @@ textarea {
 
   #section-2 {
     background-color: #eac7ff;
-    max-width: 100%;
-    padding: 0;
   }
 
   .slogan {
     max-width: 100%;
     width: 400px;
-    margin: auto;
-    padding: 60px 50px;
+    margin: auto !important;
+    padding: 60px 50px !important;
     height: 70%;
   }
 
@@ -204,14 +197,14 @@ textarea {
   .explain {
     max-width: 100%;
     width: 310px;
-    margin: -60px auto 0px auto;
-    padding-left: 110px;
+    margin: -45px auto 0px auto !important;
+    padding-left: 115px !important;
     font-size: 14px;
   }
   .explain i {
     color:#fff;
     background-color: blue;
-    padding:6px;
+    padding:6px !important;
     border-radius: 20px;
   }
 
@@ -219,22 +212,19 @@ textarea {
     display: flex;
     max-width: 100%;
     height: auto;
-    margin: 0;
   }
 
   .bottom-holder div:nth-child(1) {
     flex:2;
-    padding: 0;
   }
   .bottom-holder div:nth-child(2) {
     flex:1;
     background-color: #000;
     color: #fff !important;
-    padding: 30px 40px;
+    padding: 40px 60px !important;
   }
   .bottom-holder div:nth-child(3) {
     flex:2;
-    padding: 0;
   }
   /*End of main-layout*/
   /*Navigation styling*/
@@ -480,12 +470,8 @@ textarea {
     display: none;
   }
 
-  #nav li {
-    padding: 0 2px;
-  }
-
   .bottom-holder div:nth-child(2) {
     font-size: 14px;
-    padding: 0;
+    padding: 15px 20px !important;
   }
 }
