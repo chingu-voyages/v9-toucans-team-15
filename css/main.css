@@ -244,6 +244,7 @@ textarea {
   .bottomDiv img {
     height: 100%;
     width: 100%;
+    object-fit: cover;
   }
   /*End of main-layout*/
   /*Navigation styling*/
