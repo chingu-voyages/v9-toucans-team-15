@@ -7,15 +7,14 @@
  * Kroc Camen, and the H5BP dev community and team.
  */
 
- 
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
 
-   html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
+html {
+	color: #222;
+	font-size: 1em;
+	line-height: 1.4;
 }
 
 /*
@@ -29,13 +28,13 @@
  */
 
 ::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
+	background: #b3d4fc;
+	text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
-    text-shadow: none;
+	background: #b3d4fc;
+	text-shadow: none;
 }
 
 /*
@@ -43,12 +42,12 @@
  */
 
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
 }
 
 /*
@@ -63,7 +62,7 @@ iframe,
 img,
 svg,
 video {
-    vertical-align: middle;
+	vertical-align: middle;
 }
 
 /*
@@ -71,9 +70,9 @@ video {
  */
 
 fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
+	border: 0;
+	margin: 0;
+	padding: 0;
 }
 
 /*
@@ -81,7 +80,7 @@ fieldset {
  */
 
 textarea {
-    resize: vertical;
+	resize: vertical;
 }
 
 /* ==========================================================================
@@ -89,224 +88,247 @@ textarea {
    ========================================================================== */
 
 .browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+	margin: 0.2em 0;
+	background: #ccc;
+	color: #000;
+	padding: 0.2em 0;
 }
 
-
-
-
- /* ==========================================================================
+/* ==========================================================================
    Author's custom styles
    ========================================================================== */
-  * {
-    padding: 0 !important;
-    margin: 0 !important;
-  }
-  
-  img {
-    max-width:100%;
-  }
+* {
+	padding: 0 !important;
+	margin: 0 !important;
+}
 
-  /*Main-layout*/
-  #nav {
-    height: 10vh;
-  }
+img {
+	max-width: 100%;
+}
 
-  #nav .holder {
-    display:flex;
-    justify-content: space-between;
-    height: 100%;
-  }
+/*Main-layout*/
+#nav {
+	height: 10vh;
+}
 
-  #logo {
-    background-color: #000;
-    color: #fff;
-    height: 100%;
-  }
-  
-  #navigation {
-    display: flex;
-    justify-content: space-between;
-    height: 100%;
-  }
-  
-  #search-toggle {
-    display: flex;
-  }
-  #search-toggle i {
-    padding:4px;
-  }
-  #splash {
-    background-color: #000;
-    height: 90vh;
-  }
-  #splash .holder {
-    display: flex;
-    height: 90vh;
-  }
+#nav .holder {
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+}
 
-  #section-1 {
-    display: flex;
-    height: 100%;
-    max-width: 100%;
-    padding-right: 0;
-  }
-  
-  .vertical-text {
-    flex:1;
-    color: #999;
-    align-self: center;
-  }
+#logo {
+	background-color: #000;
+	color: #fff;
+	height: 100%;
+}
 
-  .vertical-text p {
-    transform: rotate(-90deg);
-    -webkit-transform: rotate(-90deg);
-    -moz-transform: rotate(-90deg);
-    text-align: center;
-  }
-  
-  .full-image {
-    flex:5;
-    height: auto;
-  }
-  .full-image img {
-    height:100%;
-    width: 100%;
-    object-fit: cover;
-  }
+#navigation {
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+}
 
-  #section-2 {
-    background-color: #eac7ff;
-    height: 100%;
-  }
+#search-toggle {
+	display: flex;
+}
+#search-toggle i {
+	padding: 4px;
+}
+#splash {
+	background-color: #000;
+	height: 90vh;
+}
+#splash .holder {
+	display: flex;
+	height: 90vh;
+}
 
-  .slogan {
-    max-width: 100%;
-    width: 400px;
-    margin: auto !important;
-    padding: 60px 50px !important;
-    height: 60%;
-  }
+#section-1 {
+	display: flex;
+	height: 100%;
+	max-width: 100%;
+	padding-right: 0;
+}
 
-  .big-text {
-    font-size: 42px;
-    text-align: left;
-    font-weight: 900;
-    color: transparent;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #fff;
-  }
+.vertical-text {
+	flex: 1;
+	align-self: center;
+}
 
-  .big-text span {
-    color: #fff;
-  }
+.vertical-text .tag-contain {
+	width: 100%;
+	height: 100%;
+	font-size: 30px;
+	color: #222;
+	transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	text-align: center;
+	font-weight: bold;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
-  .explain {
-    max-width: 100%;
-    width: 310px;
-    margin: -45px auto 0px auto !important;
-    padding-left: 115px !important;
-    font-size: 14px;
-  }
-  .explain i {
-    color:#fff;
-    background-color: blue;
-    padding:6px !important;
-    border-radius: 20px;
-  }
+.icon-continer {
+	align-items: flex-end;
+	background-color: aqua;
+	color: white;
+	transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+}
 
-  #image-changer {
-    height: 7%;
-  }
+.full-image {
+	flex: 5;
+	height: auto;
+}
+.full-image img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
 
-  .bottom-holder {
-    display: flex;
-    max-width: 100%;
-    height: 33%;
-  }
+#section-2 {
+	background-color: #eac7ff;
+	height: 100%;
+}
 
-  .bottom-holder div:nth-child(1) {
-    flex:2;
-  }
-  .bottom-holder div:nth-child(2) {
-    flex:1;
-    background-color: #000;
-    color: #fff !important;
-    padding: 40px 60px !important;
-  }
-  .bottom-holder div:nth-child(3) {
-    flex:2;
-  }
+.slogan {
+	max-width: 100%;
+	width: 400px;
+	margin: auto !important;
+	padding: 60px 50px !important;
+	height: 60%;
+}
 
-  .bottomDiv img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
-  /*End of main-layout*/
-  /*Navigation styling*/
-  #nav {
-    max-width: 100%;
-  }
-  #nav ul {
-    list-style-type: none;
-  }
-  #nav li {
-    display: inline;
-    padding: 0 20px;
-  }
+.big-text {
+	font-size: 42px;
+	text-align: left;
+	font-weight: 900;
+	color: transparent;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #fff;
+}
 
-  /*#nav li a */
-  .dark-links{
-    color: #000 !important;
-  }
-  .light-links {
-    color: #fff !important;
-  }
+.big-text span {
+	color: #fff;
+}
 
-  /*START OF SWITCH*/
-  #switch {
-    width: 20px;
-    height: 50px;
-    border-radius: 30px;
-    padding:5px 0;
-    border: solid #000 2px;
-    display: flex;
-    justify-content: center;
-    background-color: #fff;
-  }
-  #switch-pin {
-    width:10px;
-    height:10px;
-    border-radius: 20px;
-    background-color: #000;
-  }
+.explain {
+	max-width: 100%;
+	width: 310px;
+	margin: -45px auto 0px auto !important;
+	padding-left: 115px !important;
+	font-size: 14px;
+}
+.explain i {
+	color: #fff;
+	background-color: blue;
+	padding: 6px !important;
+	border-radius: 20px;
+}
 
-  /*END OF SWITCH*/
-  /*End of navigation styling*/
-  #image-changer {
-    display: flex;
-    text-align:center;
-  }
-  #back, #next {
-    width:40px;
-    height:40px;
-    font-size: 26px;
-  }
-  #back {
-    background-color: #171717;
-    color:#cdcdcd;
-  }
+#image-changer {
+	height: 7%;
+}
 
-  #next {
-    background-color: #cdcdcd;
-    color:#171717;
-  }
+.bottom-holder {
+	display: flex;
+	max-width: 100%;
+	height: 33%;
+}
 
- /* ==========================================================================
+.bottom-holder div:nth-child(1) {
+	flex: 2;
+}
+.bottom-holder div:nth-child(2) {
+	flex: 1;
+	background-color: #000;
+	color: #fff !important;
+	padding: 40px 60px !important;
+}
+.bottom-holder div:nth-child(3) {
+	flex: 2;
+}
+
+.bottomDiv img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+/*End of main-layout*/
+/*Navigation styling*/
+#nav {
+	max-width: 100%;
+}
+#nav ul {
+	list-style-type: none;
+}
+#nav li {
+	display: inline;
+	padding: 0 20px;
+	font-size: 25px;
+}
+
+button {
+	font-size: 10px;
+	color: black;
+}
+
+.search-icon {
+	font-size: 30px;
+}
+
+/*#nav li a */
+.dark-links {
+	color: #000 !important;
+}
+.light-links {
+	color: #fff !important;
+}
+
+/*START OF SWITCH*/
+#switch {
+	width: 18px;
+	height: 40px;
+	border-radius: 30px;
+	padding: 5px 0;
+	border: inset #000 1px;
+	display: flex;
+	justify-content: center;
+	background-color: #fff;
+}
+#switch-pin {
+	width: 10px;
+	height: 10px;
+	border: 2px solid white;
+	border-radius: 20px;
+	background-color: #000;
+}
+
+/*END OF SWITCH*/
+/*End of navigation styling*/
+#image-changer {
+	display: flex;
+	text-align: center;
+}
+#back,
+#next {
+	width: 40px;
+	height: 40px;
+	font-size: 26px;
+}
+#back {
+	background-color: #171717;
+	color: #cdcdcd;
+}
+
+#next {
+	background-color: #cdcdcd;
+	color: #171717;
+}
+
+/* ==========================================================================
    Helper classes
    ========================================================================== */
 
@@ -314,8 +336,8 @@ textarea {
  * Hide visually and from screen readers
  */
 
- .hidden {
-  display: none !important;
+.hidden {
+	display: none !important;
 }
 
 /*
@@ -328,15 +350,15 @@ textarea {
 */
 
 .visuallyhidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-  white-space: nowrap; /* 1 */
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	white-space: nowrap; /* 1 */
 }
 
 /*
@@ -347,13 +369,13 @@ textarea {
 
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
-  clip: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  width: auto;
-  white-space: inherit;
+	clip: auto;
+	height: auto;
+	margin: 0;
+	overflow: visible;
+	position: static;
+	width: auto;
+	white-space: inherit;
 }
 
 /*
@@ -361,7 +383,7 @@ textarea {
 */
 
 .invisible {
-  visibility: hidden;
+	visibility: hidden;
 }
 
 /*
@@ -378,124 +400,119 @@ textarea {
 
 .clearfix:before,
 .clearfix:after {
-  content: " "; /* 1 */
-  display: table; /* 2 */
+	content: " "; /* 1 */
+	display: table; /* 2 */
 }
 
 .clearfix:after {
-  clear: both;
+	clear: both;
 }
 
- 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
 
-   @media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 35em) {
+	/* Style adjustments for viewports that meet the condition */
 }
 
-@media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
+@media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
+	/* Style adjustments for high resolution devices */
 }
 
- 
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
    https://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
 
-   @media print {
-    *,
-    *:before,
-    *:after {
-        background: transparent !important;
-        color: #000 !important; /* Black prints faster */
-        -webkit-box-shadow: none !important;
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
+@media print {
+	*,
+	*:before,
+	*:after {
+		background: transparent !important;
+		color: #000 !important; /* Black prints faster */
+		-webkit-box-shadow: none !important;
+		box-shadow: none !important;
+		text-shadow: none !important;
+	}
 
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
+	a,
+	a:visited {
+		text-decoration: underline;
+	}
 
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
+	a[href]:after {
+		content: " (" attr(href) ")";
+	}
 
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
+	abbr[title]:after {
+		content: " (" attr(title) ")";
+	}
 
-    /*
+	/*
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
 
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
-        content: "";
-    }
+	a[href^="#"]:after,
+	a[href^="javascript:"]:after {
+		content: "";
+	}
 
-    pre {
-        white-space: pre-wrap !important;
-    }
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
+	pre {
+		white-space: pre-wrap !important;
+	}
+	pre,
+	blockquote {
+		border: 1px solid #999;
+		page-break-inside: avoid;
+	}
 
-    /*
+	/*
      * Printing Tables:
      * http://css-discuss.incutio.com/wiki/Printing_Tables
      */
 
-    thead {
-        display: table-header-group;
-    }
+	thead {
+		display: table-header-group;
+	}
 
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
+	tr,
+	img {
+		page-break-inside: avoid;
+	}
 
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
+	p,
+	h2,
+	h3 {
+		orphans: 3;
+		widows: 3;
+	}
 
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
+	h2,
+	h3 {
+		page-break-after: avoid;
+	}
 }
 
 @media (max-width: 1200px) {
-  .vertical-text {
-    display: none;
-  }
+	.vertical-text {
+		display: none;
+	}
 
-  #search-toggle {
-    display: none;
-  }
+	#search-toggle {
+		display: none;
+	}
 
-  .bottom-holder div:nth-child(2) {
-    font-size: 14px;
-    padding: 15px 20px !important;
-  }
+	.bottom-holder div:nth-child(2) {
+		font-size: 14px;
+		padding: 15px 20px !important;
+	}
 
-  #next {
-    margin-left: auto !important;
-  }
+	#next {
+		margin-left: auto !important;
+	}
 }
