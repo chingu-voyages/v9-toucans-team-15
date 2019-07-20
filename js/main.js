@@ -33,7 +33,7 @@ search.addEventListener('click', function() {
 });
 
 function darkTheme() {
-	logo.style.backgroundColor = '#55575b';
+	logo.style.backgroundColor = '#000';
 	navigation.style.backgroundColor = '#2d2f34';
 	splash.style.backgroundColor = '#55575b';
 	section2.style.background = '#55575b';
