@@ -251,6 +251,15 @@ img {
 	flex: 2;
 }
 
+.last-line {
+	color: white;
+}
+
+.last-line:hover {
+	color: white;
+	text-decoration: underline;
+}
+
 .bottomDiv img {
 	height: 100%;
 	width: 100%;
